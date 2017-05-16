@@ -6,6 +6,7 @@ import RootContainer from './RootContainer'
 import createStore from '../redux'
 import firebase from 'firebase'
 import { Font, AppLoading } from 'expo';
+import firebase_config from '../config/fbconfig'
 
 //import createStore from '../Redux'
 //import { createStore } from 'redux' //use default redux createstore for now
@@ -29,15 +30,7 @@ class App extends Component {
   }
 
   async componentWillMount(){
-     const config = {
-      apiKey: "",
-      authDomain: "",
-      databaseURL: "",
-      projectId: "",
-      storageBucket: "",
-      messagingSenderId: ""
-    };
-    firebase.initializeApp(config);
+    firebase.initializeApp(firebase_config);
 
     await Font.loadAsync({
           'Rubik-Black': require('../../node_modules/@shoutem/ui/fonts/Rubik-Black.ttf'),
