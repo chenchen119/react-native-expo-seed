@@ -1,4 +1,3 @@
-import { Video } from 'expo';
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Dimensions } from 'react-native';
 var { height, width } = Dimensions.get('window');
