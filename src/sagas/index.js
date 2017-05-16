@@ -20,7 +20,7 @@ import { startup } from './StartupSagas'
 export default function * root () {
   yield [
     // some sagas only receive an action
-   takeLatest(StartupTypes.STARTUP, startup),
+    takeLatest(StartupTypes.STARTUP, startup),
     takeLatest(LoginTypes.LOGIN_REQUEST, login),
   ]
 }
