@@ -1,7 +1,7 @@
 {
-  "name": "rogue-tv",
+  "name": "react-native-expo-seed",
   "description": "An empty new project",
-  "slug": "rogue-tv",
+  "slug": "rnes",
   "privacy": "public",
   "sdkVersion": "16.0.0",
   "version": "1.0.0",
