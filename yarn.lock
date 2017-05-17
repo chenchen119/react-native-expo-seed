@@ -3655,7 +3655,7 @@ react-native-keyboard-aware-scroll-view@0.2.7:
   dependencies:
     react-timer-mixin "^0.13.3"
 
-"react-native-lightbox@github:shoutem/react-native-lightbox#4e58b9b1aca166142d69b161ff511efc3358ff9f":
+react-native-lightbox@shoutem/react-native-lightbox#4e58b9b1aca166142d69b161ff511efc3358ff9f:
   version "0.7.0"
   resolved "https://codeload.github.com/shoutem/react-native-lightbox/tar.gz/4e58b9b1aca166142d69b161ff511efc3358ff9f"
   dependencies:
@@ -3708,7 +3708,7 @@ react-native-tab-view@^0.0.61:
   dependencies:
     prop-types "^15.5.8"
 
-"react-native-transformable-image@github:shoutem/react-native-transformable-image#7d15395ec3857571711a12bc08f24f3a96ff1cde":
+react-native-transformable-image@shoutem/react-native-transformable-image#7d15395ec3857571711a12bc08f24f3a96ff1cde:
   version "0.0.19"
   resolved "https://codeload.github.com/shoutem/react-native-transformable-image/tar.gz/7d15395ec3857571711a12bc08f24f3a96ff1cde"
   dependencies:
@@ -3947,7 +3947,11 @@ redux-form@^6.6.3:
     lodash-es "^4.17.3"
     prop-types "^15.5.6"
 
-redux-persist@^4.7.1:
+redux-persist-migrate@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/redux-persist-migrate/-/redux-persist-migrate-4.1.0.tgz#8da119f51a675644dd3a736891db5e883ad9f855"
+
+redux-persist@^4.8.0:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/redux-persist/-/redux-persist-4.8.0.tgz#17fd998949bdeef9275e4cf60ad5bbe1c73675fc"
   dependencies:
