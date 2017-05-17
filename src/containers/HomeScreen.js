@@ -7,8 +7,6 @@ class HomeScreen extends Component {
   state = {
   };
   render() {
-    const { paused } = this.state;
-
     return (
       <View style={styles.container}>
         <Text>Open up main.js to start working on your app!</Text>

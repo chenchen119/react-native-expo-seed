@@ -31,7 +31,7 @@ export const success = (state, user ) =>
 
 // we've had a problem logging in
 export const failure = (state, { error }) =>
-  ({ ...state, loading: false, loggedIn: false , error})
+  ({ ...state, loading: false, loggedIn: false, error})
 
 // we've logged out
 export const logout = (state) => INITIAL_STATE
